@@ -1,77 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Hållfjällsgården</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:wght@700&display=swap');
-      body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        font-size: 14pt;
-        background-color: #4b5a5d;
-        color: #fff;
-      }
-      .background {
-        background-image: url('fall.webp');
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .overlay {
-        text-align: center;
-        font-family: "Josefin Sans", sans-serif;
-      }
-      h1 {
-        font-family: "Playfair Display", serif;
-        font-size: calc(2rem + 4vw);
-        font-weight: 700;
-        margin: 0;
-      }
-      p {
-        margin: 1em 0 0 0;
-      }
-      .links {
-        margin: 2em 0em;
-      }
-      .wbox {
-        background-color: white;
-        padding: 10px 30px;
-        margin: 0em 1em;
-      }
-      .wbox a {
-        color: #4b5a5d;
-        text-decoration: none;
-      }
-      .links svg {
-        vertical-align: middle;
-        height: 50px;
-        width: 50px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="background">
-      <div class="overlay">
-        <p>Welcome to</p>
-        <h1>Hållfjällsgården</h1>
-        <p>Off-grid restaurant and hotel in Södra Årefjällen, opening 2025.</p>
-        <div class="links">
-          <span class="wbox"><a href="mailto:info@hallfjallsgarden.se">Contact</a></span>
-          <a href="https://instagram.com/hallfjallsgarden" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg">
-              <path fill="#fff" d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hållfjället – Mountain Hotel &amp; Restaurant · Fjällhotell &amp; restaurang</title>
+<meta name="description" content="Hållfjället is a small mountain hotel and restaurant above Ottsjö in Åre, Sweden. / Ett litet fjällhotell och en restaurang ovanför Ottsjö i Åre.">
+<meta name="theme-color" content="#2b3639">
+<link rel="canonical" href="https://www.hallfjallet.se/">
+<link rel="alternate" hreflang="en" href="https://www.hallfjallet.se/en/">
+<link rel="alternate" hreflang="sv" href="https://www.hallfjallet.se/sv/">
+<link rel="alternate" hreflang="x-default" href="https://www.hallfjallet.se/en/">
+<meta property="og:title" content="Hållfjället">
+<meta property="og:description" content="Mountain hotel &amp; restaurant in Ottsjö, Åre, Sweden.">
+<meta property="og:image" content="https://www.hallfjallet.se/assets/img/og.jpg">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+  (function () {
+    try {
+      var l = (navigator.languages && navigator.languages[0]) || navigator.language || 'en';
+      location.replace(/^sv/i.test(l) ? '/sv/' : '/en/');
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body class="splash">
+<main class="splash-inner">
+  <p class="eyebrow">Welcome to · Välkommen till</p>
+  <h1>Hållfjället</h1>
+  <p class="lead">Mountain hotel &amp; restaurant in Ottsjö, Åre<br>Fjällhotell &amp; restaurang i Ottsjö, Åre</p>
+  <p class="hero-actions"><a class="btn btn-solid" href="/en/" hreflang="en" lang="en">English</a> <a class="btn btn-ghost" href="/sv/" hreflang="sv" lang="sv">Svenska</a></p>
+</main>
+</body>
 </html>
